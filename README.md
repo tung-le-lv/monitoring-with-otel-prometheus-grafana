@@ -1,9 +1,3 @@
-## Docker compose
-Start all services:
-docker-compose up -d
-
-OrderAPI: http://localhost:8080/api/v1/orders
-
 ## Prometheus
 Prometheus is a time-series database that collects metrics from the application.
 The current otel collector container is configured to scrape the metrics (collected by OpenTelemetry) from the application to Prometheus.
